@@ -1,4 +1,4 @@
-package backjoon;
+package backjoon.backtracking;
 
 //백트래킹
 import java.io.*;
