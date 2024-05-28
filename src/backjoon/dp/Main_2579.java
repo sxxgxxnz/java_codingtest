@@ -23,7 +23,7 @@ public class Main_2579 {
         arr = new int[N+1];
         dp = new Integer[N+1];
 
-        for(int i=0;i<N;i++){
+        for(int i=1;i<=N;i++){
             arr[i] = Integer.parseInt(br.readLine());
         }
         // 재귀 dp는 int[] 배열이 아닌 Integer[] 객체 배열을 쓸 것이다.
@@ -34,27 +34,28 @@ public class Main_2579 {
         if(N>=2){
             dp[2] = arr[1] + arr[2];
         }
-        System.out.println(dp(0));
+        System.out.println(dp(N));
         }
-         */
-     /*
+*/
+
     public static void main(String[] args) throws IOException {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
         int N = Integer.parseInt(br.readLine());
 
-         bottom-up 반복문
+         //bottom-up 반복문
 
         int[] DP = new int[N+1];
         int[] arr = new int[N+1];
 
-        for(int i=0;i<N;i++){
+        for(int i=1;i<=N;i++){
             arr[i] = Integer.parseInt(br.readLine());
         }
         // index = 0은 시작점이다.
+        DP[0]=arr[0];
         DP[1]=arr[1];
 
         //N이 1일수도 있기 때문에 예외처리
-        if(N>=2){
+        if(N>1){
             DP[2] = arr[1] + arr[2];
         }
         for(int i=3;i<=N;i++){
@@ -64,6 +65,6 @@ public class Main_2579 {
 
 
     }
- */
+
 
 }
