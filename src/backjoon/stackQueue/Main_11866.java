@@ -1,4 +1,4 @@
-package backjoon;
+package backjoon.stackQueue;
 
 import java.util.*;
 

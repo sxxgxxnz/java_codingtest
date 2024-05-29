@@ -1,4 +1,4 @@
-package backjoon;
+package backjoon.stackQueue;
 
 //큐
 import java.io.*;
