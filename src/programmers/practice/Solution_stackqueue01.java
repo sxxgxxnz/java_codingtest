@@ -4,7 +4,7 @@ package practice;
 import java.util.Collections;
 import java.util.PriorityQueue;
 
-public class Solution_stackque01 {
+public class Solution_stackqueue01 {
     static int solution(int[] priorities, int location) {
         int answer = 0;
         // 우선순위 큐 내림차순
