@@ -6,6 +6,7 @@ import java.util.*;
 public class Solution_beginner03 {
     public static void main(String[] args) {
         int[] array = {1,2,3,3,3,4};
+
         System.out.println(solution(array));
     }
     static int solution(int[] array) {
